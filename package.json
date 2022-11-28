@@ -1,0 +1,27 @@
+{
+  "name": "swagger-in-express",
+  "version": "1.0.0",
+  "description": "Ref.:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "swagger-autogen": "node swagger.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flauberjp/swagger-in-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flauberjp/swagger-in-express/issues"
+  },
+  "homepage": "https://github.com/flauberjp/swagger-in-express#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "swagger-ui-express": "^4.6.0",
+    "swagger-autogen": "^2.22.0"
+  }
+}
